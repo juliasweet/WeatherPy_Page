@@ -1,0 +1,16 @@
+.h1 {
+    font-size: 24px;
+    color: mediumblue;
+    background-color: lightgray;
+}
+
+.p {
+    font-size: 12px;
+    color: black;
+    background-color: lightgrey;
+}
+
+#nav_img {
+    height: 144;
+    width: 216;
+}
