@@ -15,8 +15,8 @@
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Climate Analysis</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="index.html" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="landing.html">Climate Analysis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="landing.html" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -46,19 +46,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <h1 style="color:skyblue">Wind Speed vs. Latitude</h1>
-                <p><img src="LatitudevsWindSpeed.png" alt="Plot of latitude vs cloudiness" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;">
-                    <td align=top> This visualization shows the relationship between a city's wind speed and its latitude on July 11th, 2019. The cities' latitudes are plotted along the x axis, and the highest wind speed in mph is plotted along the y axis. Data points
-                        are concentrated along the bottom half of the plot, with the vast majority accounting for wind speeds below 10 mph.
+                <h1 style="color:steelblue">Julia Sweet's Climate Analysis</h1>
+                <p><img src="LatitudevsTemperature.png" alt="Plot of latitude vs temperature" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;">
+                    <td align=top> Welcome to my Weather Py pages. Weather Py was the homework assignment for the API Unit of the Data Visualization and Analysis Bootcamp hosted at University of Minnesota, St. Paul. For this assignment, we used several Python libraries,
+                        including Pandas, Matplotlib, and Numpy. We also used the OpenWeather API and CitiPy. The data was gathered by first generating 1500 random latitude-longitude pairs, then using CitiPy to find the nearest city. CitiPy limits its
+                        results to cities with at least 500 people. Then, the cities were fed into the OpenWeather API. If the city had a weather station, the following data points were gathered: temperature, humidity, wind speed, and cloudiness. As the
+                        query was run on July 11th, 2019, the data reflect measurements for that date.
                     </td>
                 </p>
-                <p> This visualization reveals that globally, wind speeds tend to not exceed 10 mph, and in many cases, stays below 5 mph. Wind speed of above 20 mph were very rare and mostly occurred in the lowest altitudes (more than 30 degrees south of
-                    the equator). Moderately high wind speeds (between 10 and 15 mph) appeared to be more common the farther north a city was located, though that may have been a result of the fact that there were more cities found in the northern hemisphere
-                    than in the southern hemisphere. Generally speaking, wind speeds seemed to be more consistent at latitudes that were farther away from the equator.
+                <p> The assignment called for four comparisons to be made and plotted. Each of the analyses compared one weather-related metric with a city's latitude. We were to try to draw conclusions about weather patterns as they pertained to latitude.
+                    Specifically, we looked at the relationships between latitude and temperature, wind speed, humidity, and cloudiness. You can navigate to any visualization, accompanied by my analysis, by clicking on the thumbnail of the visualization
+                    or by selecing the comparison from the drop-down menu above. If you are interested in viewing my source code, visit my github repository for the project.
                 </p>
+
             </div>
             <div class="col-md-4">
-                <h3 style="color:skyblue">Visualizations</h3>
+                <h3 style="color:steelblue">Visualizations</h3>
                 <div class="row">
                     <div class="col-md-6">
                         <a href="temperature.html"><img src="LatitudevsTemperature.png" alt="Link to Latitude vs. Temperature" width=175px height=135px>
@@ -78,5 +81,4 @@
                 </div>
             </div>
         </div>
-        <!-- Will wrap automatically.  -->
 </body>
