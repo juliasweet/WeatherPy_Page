@@ -1,0 +1,22 @@
+body {
+    background-color: gainsboro;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    background-color: gainsboro;
+}
+
+#nav_img {
+    height: 144;
+    width: 216;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey color: black;
+    text-align: center;
+}
